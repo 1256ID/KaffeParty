@@ -11,152 +11,216 @@
         <title>KaffeParty</title>
     </head>
 
-    <body>
-        <section class="bg-coffee">
-            <header class="container-fluid p-5 text-center">
-                <h1 class="display-2">KaffeParty</h1>
-                <div class="btn-group " role="group" aria-label="Basic example">
-                    <a type="button" class="btn btn-secondary" href="/index.html">Index</a>
-                    <a type="button" class="btn btn-secondary" href="/pages/products.html">Produkter</a>
-                    <a type="button" class="btn btn-secondary" href="/pages/aboutUs.html">Om oss</a>
-                </div>
-            </header>
-            <div class="container-fluid text-white">
-                <div class="row g-0 p-5 m-5 mb-4">
-                    <div class="col-md-6 mb-4">
-                        <div class="bg-dark d-flex flex-column p-5 border-4px-brown m-5 h-100">                         
-                                <h2 class="text-center p-3">Kaffemaskiner</h2>
-                                <ol class="bg-lightbrown p-5 m-5 mb-4 md-4 border-4px-brown">
-                                    <li class="bg-darkbrown p-5 border-2px-brown">
-                                        <h3>Moccamaster KBGT 741</h3>
-                                        <h4>Pris: 2500 SEK</h4>
-                                        <ul>
-                                            <h5>Specifikationer:</h5>
-                                            <li>
-                                                <h6>Brygger 1,25 L (10 koppar) på 6 minuter</h6>
-                                            </li>
-                                            <li>
-                                                <h6>Automatisk avstängning efter 40 min</h6>
-                                            </li>
-                                            <li>
-                                                <h6>Termoskanna</h6>
-                                            </li>
-                                        </ul>
-                                        <br>
-                                        <h5>Info:</h5>
-                                        <h6>
-                                            Klassisk och pålitlig kaffebryggare med snabb bryggning och 
-                                            hållbart byggd i aluminium. Handtillverkad i Nederländerna.
-                                        </h6>
-                                    </li>
-
-                                    <li class="bg-darkbrown p-5 border-2px-brown">
-                                        <h3>DeLonghi Magnifica S ECAM 22.110.B</h3>
-                                        <h4>Pris: 4500 SEK</h4>
-                                        <ul>
-                                            <h5>Specifikationer:</h5>
-                                            <li>
-                                                <h6>Helautomatisk espressomaskin</h6>
-                                            </li>
-                                            <li>
-                                                <h6>Inbyggd kaffekvarn (13 inställningar)</h6>
-                                            </li>
-                                            <li>
-                                                <h6>Ångmunstycke för mjölkskum</h6>
-                                            </li>
-                                        </ul>
-                                        <br>
-                                        <h5>Info:</h5>
-                                        <h6>Populär helautomatisk maskin som gör både espresso och cappuccino med ett knapptryck.</h6>
-                                    </li>
-
-                                    <li class="bg-darkbrown p-5 border-2px-brown">
-                                        <h3>Nespresso Vertuo Next</h3>
-                                        <h4>Pris: 1800 SEK</h4>
-                                        <ul>
-                                            <h5>Specifikationer:</h5>
-                                            <li>
-                                                <h6>Använder Vertuo-kapslar (ej kompatibel med OriginalLine)</h6>
-                                            </li>
-                                            <li>
-                                                <h6>Automatisk kapseligenkänning</h6>
-                                            </li>
-                                            <li>
-                                                <h6>Wi-Fi och Bluetooth-stöd</h6>
-                                            </li>
-                                        </ul>
-                                        <br>
-                                        <h5>Info:</h5>
-                                        <h6>Stilren kapselmaskin från Nespresso med möjlighet att brygga allt från espresso till mug-size kaffe.</h6>
-                                    </li>
-
-                                    <li class="bg-darkbrown p-5 border-2px-brown">
-                                        <h3>Sage Barista Express</h3>
-                                        <h4>Pris: 6990 SEK</h4>
-                                        <ul>
-                                            <h5>Specifikationer:</h5>
-                                            <li>
-                                                <h6>Semiautomatisk espressomaskin</h6>
-                                            </li>
-                                            <li>
-                                                <h6>Inbyggd kvarn</h6>
-                                            </li>
-                                            <li>
-                                                <h6>PID-temperaturkontroll</h6>
-                                            </li>
-                                        </ul>
-                                        <br>
-                                        <h5>Info:</h5>
-                                        <h6>Perfekt för dig som vill ha manuell kontroll över malning, tampning och bryggning, men med hjälpande teknik.</h6>
-                                    </li>
-
-                                    <li class="bg-darkbrown p-5 border-2px-brown">
-                                        <h3>Wilfa Svart Performance WSPL-3B</h3>
-                                        <h4>Pris: 2000 SEK</h4>
-                                        <ul>
-                                            <h5>Specifikationer:</h5>
-                                            <li>
-                                                <h6>1,25 L kapacitet</h6>
-                                            </li>
-                                            <li>
-                                                <h6>92–96°C bryggtemperatur (godkänt av SCA)</h6>
-                                            </li>
-                                            <li>
-                                                <h6>Automatisk vattenflödeskontroll</h6>
-                                            </li>
-                                        </ul>
-                                        <br>
-                                        <h5>Info:</h5>
-                                        <h6>Skandinavisk design och exakt temperaturkontroll gör denna till ett populärt val bland filterkaffeälskare.</h6>
-                                    </li>
-
-
-
-
-                                </ol>
-                            
-                        </div>
+    <body class="d-flex flex-column min-vh-100">
+        <main class="flex-fill">
+            <section class="bg-coffee-products">
+                <header class="container-fluid p-5 text-center">
+                    <h1 class="display-2">KaffeParty</h1>
+                    <div class="btn-group " role="group" aria-label="Basic example">
+                        <a type="button" class="btn btn-secondary" href="/index.html">Index</a>
+                        <a type="button" class="btn btn-secondary" href="/pages/products.html">Produkter</a>
+                        <a type="button" class="btn btn-secondary" href="/pages/aboutUs.html">Om oss</a>
                     </div>
-            
-                    <div class="col-md-6 mb-4">
-                        <div class="bg-dark d-flex flex-column p-5 border-4px-brown m-5 h-100">
-                            
-                            <div class="p-4 m-1">
-                                <h2 class="p-3 text-center">Kaffeparty</h2>
-                                <ul class="bg-lightbrown p-5 m-2 border-4px-brown">
-                                    <li class="bg-darkbrown p-5 m-2 border-2px-brown"><h4>Vi arrangerar kaffeinspirerade evenemang för både privatpersoner och företag.</h4></li>
-                                    <li class="bg-darkbrown p-5 m-2 border-2px-brown"><h4>Våra eventlokaler finns över hela Sverige.</h4></li>
-                                    <li class="bg-darkbrown p-5 m-2 border-2px-brown"><h4>Besök våra drop-in-butiker i Stockholm och Göteborg.</h4></li>
-                                </ul>
+                </header>
+                <div class="container-fluid text-white">
+                    <div class="row g-0 p-5">
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex flex-column p-2 m-5 h-100">                         
+                                    <h2 class="playfair-font text-black text-center p-3 m-2">Kaffemaskiner</h2>
+                                    <ol class="bg-lightbrown p-5 m-5 mb-4 md-4 border-4px-blue">
+                                        <li class="bg-darkbrown p-5 border-2px-brown">
+                                            <h3 class="font-weight-800">Moccamaster KBGT 741</h3>
+                                            <h4>Pris: 2500 SEK</h4>
+                                            <ul>
+                                                <h5>Specifikationer:</h5>
+                                                <li>
+                                                    <h6>Brygger 1,25 L (10 koppar) på 6 minuter</h6>
+                                                </li>
+                                                <li>
+                                                    <h6>Automatisk avstängning efter 40 min</h6>
+                                                </li>
+                                                <li>
+                                                    <h6>Termoskanna</h6>
+                                                </li>
+                                            </ul>
+                                            <br>
+                                            <h5>Info:</h5>
+                                            <h6>
+                                                Klassisk och pålitlig kaffebryggare med snabb bryggning och 
+                                                hållbart byggd i aluminium. Handtillverkad i Nederländerna.
+                                            </h6>
+                                        </li>
+
+                                        <li class="bg-darkbrown p-5 border-2px-brown">
+                                            <h3 class="font-weight-800">DeLonghi Magnifica S ECAM 22.110.B</h3>
+                                            <h4>Pris: 4500 SEK</h4>
+                                            <ul>
+                                                <h5>Specifikationer:</h5>
+                                                <li>
+                                                    <h6>Helautomatisk espressomaskin</h6>
+                                                </li>
+                                                <li>
+                                                    <h6>Inbyggd kaffekvarn (13 inställningar)</h6>
+                                                </li>
+                                                <li>
+                                                    <h6>Ångmunstycke för mjölkskum</h6>
+                                                </li>
+                                            </ul>
+                                            <br>
+                                            <h5>Info:</h5>
+                                            <h6>Populär helautomatisk maskin som gör både espresso och cappuccino med ett knapptryck.</h6>
+                                        </li>
+
+                                        <li class="bg-darkbrown p-5 border-2px-brown">
+                                            <h3 class="font-weight-800">Nespresso Vertuo Next</h3>
+                                            <h4>Pris: 1800 SEK</h4>
+                                            <ul>
+                                                <h5>Specifikationer:</h5>
+                                                <li>
+                                                    <h6>Använder Vertuo-kapslar (ej kompatibel med OriginalLine)</h6>
+                                                </li>
+                                                <li>
+                                                    <h6>Automatisk kapseligenkänning</h6>
+                                                </li>
+                                                <li>
+                                                    <h6>Wi-Fi och Bluetooth-stöd</h6>
+                                                </li>
+                                            </ul>
+                                            <br>
+                                            <h5>Info:</h5>
+                                            <h6>Stilren kapselmaskin från Nespresso med möjlighet att brygga allt från espresso till mug-size kaffe.</h6>
+                                        </li>
+
+                                        <li class="bg-darkbrown p-5 border-2px-brown">
+                                            <h3 class="font-weight-800">Sage Barista Express</h3>
+                                            <h4>Pris: 6990 SEK</h4>
+                                            <ul>
+                                                <h5>Specifikationer:</h5>
+                                                <li>
+                                                    <h6>Semiautomatisk espressomaskin</h6>
+                                                </li>
+                                                <li>
+                                                    <h6>Inbyggd kvarn</h6>
+                                                </li>
+                                                <li>
+                                                    <h6>PID-temperaturkontroll</h6>
+                                                </li>
+                                            </ul>
+                                            <br>
+                                            <h5>Info:</h5>
+                                            <h6>Perfekt för dig som vill ha manuell kontroll över malning, tampning och bryggning, men med hjälpande teknik.</h6>
+                                        </li>
+
+                                        <li class="bg-darkbrown p-5 border-2px-brown">
+                                            <h3 class="font-weight-800">Wilfa Svart Performance WSPL-3B</h3>
+                                            <h4>Pris: 2000 SEK</h4>
+                                            <ul>
+                                                <h5>Specifikationer:</h5>
+                                                <li>
+                                                    <h6>1,25 L kapacitet</h6>
+                                                </li>
+                                                <li>
+                                                    <h6>92–96°C bryggtemperatur (godkänt av SCA)</h6>
+                                                </li>
+                                                <li>
+                                                    <h6>Automatisk vattenflödeskontroll</h6>
+                                                </li>
+                                            </ul>
+                                            <br>
+                                            <h5>Info:</h5>
+                                            <h6>Skandinavisk design och exakt temperaturkontroll gör denna till ett populärt val bland filterkaffeälskare.</h6>
+                                        </li>
+
+
+
+
+                                    </ol>
+                                
                             </div>
                         </div>
-                    </div>          
-            </div>
-            
-            <footer class="text-center text-white bg-dark py-3">
-                &copy; 2025 KaffeParty. Alla rättigheter förbehållna.
-            </footer>
-        </section>
+                
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex flex-column p-2 m-5 h-100 text-black"> 
+                                <h2 class="roboto-font text-center text-black p-3 m-2">Kaffeparty</h2>
+                                <ul class="p-5 mb-4 md-4">
+                                    <li class="p-5 m-2"><h4>Vi arrangerar kaffeinspirerade evenemang för både privatpersoner och företag.</h4></li>
+                                    <li class="p-5 m-2"><h4>Våra eventlokaler finns över hela Sverige.</h4></li>
+                                    <li class="p-5 m-2"><h4>Besök våra drop-in-butiker i Stockholm och Göteborg.</h4></li>
+                                </ul>
+
+                                <h2 class="roboto-font text-center">Våra paket</h2>
+
+                                <div class=" m-5">
+                                    <div class="row text-center m-1">
+                                        <div class="col-md-6">
+                                            <h3 class="roboto-font p-5">Företag</h3>
+                                            <ol class="text-white">
+                                                <li class="bg-darkbrown border-4px-brown p-5">
+                                                    <h3>Kaffecatering på kontoret</h3>
+                                                    <br>
+                                                    <h5>Innehåll: Mobilt baristastånd med färskbryggt kaffe, espresso, cappuccino och småkakor.</h5>
+                                                    <br>
+                                                    <h5>Beskrivning: Förhöj er arbetsdag eller ert möte med riktigt kaffe direkt till kontoret.</h5>
+                                                </li>
+                                                <li class="bg-darkbrown border-4px-brown p-5">
+                                                    <h3>After Work Espresso Lounge</h3>
+                                                    <br>
+                                                    <h5>Innehåll: Avslappnad kaffelounge med barista, espressodrinkar, musik och tilltugg.</h5>
+                                                    <br>
+                                                    <h5>Beskrivning: Perfekt avslut på arbetsveckan – en social, smakrik stund tillsammans med kollegorna.</h5>
+                                                </li>
+                                                <li class="bg-darkbrown border-4px-brown p-5">
+                                                    <h3>Kaffeprovning för teamet</h3>
+                                                    <br>
+                                                    <h5>Innehåll: Guidad provning av olika bönor, ursprung och bryggmetoder.</h5>
+                                                    <br>
+                                                    <h5>Beskrivning: Teambuilding och utbildning i ett – lär er känna skillnaden mellan kaffe från Etiopien och Colombia.</h5>
+                                                </li>
+                                            </ol>
+        
+                                        </div>
+        
+                                        <div class="col-md-6">
+                                            <h3 class="roboto-font p-5">Privat</h3>
+                                            <ol class="text-white">
+                                                <li class="bg-darkbrown border-4px-brown p-5">
+                                                    <h3>Baristakurs hemma</h3>
+                                                    <br>
+                                                    <h5>Innehåll: En barista kommer hem till dig med utrustning och bönor – lär dig brygga som ett proffs.</h5>
+                                                    <br>
+                                                    <h5>Beskrivning: Lär dig espresso, cappuccino och latte art i ditt eget kök – perfekt för par eller vänner.</h5>
+                                                </li>
+                                                <li class="bg-darkbrown border-4px-brown p-5">
+                                                    <h3>Kaffe & Konst</h3>
+                                                    <br>
+                                                    <h5>Innehåll: Skapa konst med kaffe, latte art-penslar och smakfull inspiration.</h5>
+                                                    <br>
+                                                    <h5>Beskrivning: En kreativ kväll där smak möter skapande – ingen konstvana krävs!</h5>
+                                                    <br>
+                                                </li>
+                                                <li class="bg-darkbrown border-4px-brown p-5">
+                                                    <h3>Kaffekalas (för födelsedagar eller fester)</h3>
+                                                    <br>
+                                                    <h5>Innehåll: Kaffebar med barista, specialdrycker, choklad, kaffequiz och musik.</h5>
+                                                    <br>
+                                                    <h5>Beskrivning: Ett unikt inslag för din födelsedag eller fest – kul för både unga och vuxna!</h5>
+                                                </li>
+                                            </ol>
+        
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                            
+                            </div>
+                        </div>  
+                    </div>
+                </div>      
+            </section>
+        </main>
+        <footer class="container-fluid bg-dark text-white py-3 text-center mt-auto">
+            &copy; 2025 KaffeParty. Alla rättigheter förbehållna.
+        </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

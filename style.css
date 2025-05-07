@@ -1,16 +1,32 @@
-.bg-coffee {
+.bg-coffee-index, .bg-coffee-products {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    background-image: url("/pictures/Coffee.png");
     background-size: cover;       
     background-position: center;  
     background-repeat: no-repeat;
 }
 
+.bg-coffee-index {
+    background-image: url("/pictures/Coffee_index.png");
+}
+
+.bg-coffee-products {
+    background-image: url("/pictures/Coffee_Products.png");
+}
+
+.roboto-font {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    
+}
+
+.font-weight-800 {
+    font-weight: 800;
+}
 h2 {
-    font-family: "Bebas Neue", sans-serif;
+    font-size:3em;
 }
 
 .border-2px-brown {
@@ -20,6 +36,10 @@ h2 {
     border: 4px solid rgba(100, 57, 1, 0.993);
 }
 
+.border-4px-blue {
+    border: solid 8px #212529;
+}
+
 .bg-lightbrown {
     background-color: rgb(88, 51, 2);
 }
@@ -27,3 +47,5 @@ h2 {
 .bg-darkbrown {
     background-color: rgb(70, 39, 0);
 }
+
+
