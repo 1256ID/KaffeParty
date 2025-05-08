@@ -49,3 +49,25 @@ h2 {
 }
 
 
+@media (max-width: 768px) {
+    body {
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .bg-darkbrown {
+        padding:auto;
+        margin: auto;
+        max-width: fit-content;
+    }
+
+    .bg-dark {
+        padding:auto;
+        margin:auto;
+        width: fit-content;
+    }
+
+   
+
+}
