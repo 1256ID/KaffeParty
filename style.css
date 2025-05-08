@@ -62,12 +62,15 @@ h2 {
         max-width: fit-content;
     }
 
-    .bg-dark {
-        padding:auto;
-        margin:auto;
-        width: fit-content;
-    }
+    
 
    
+}
 
+@media (min-width: 2000px) {
+    .bg-darkbrown {
+        padding:10em;
+        margin:auto;
+        
+    }
 }
