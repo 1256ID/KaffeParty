@@ -60,11 +60,7 @@ h2 {
         padding:auto;
         margin: auto;
         max-width: fit-content;
-    }
-
-    
-
-   
+    } 
 }
 
 @media (min-width: 2000px) {
